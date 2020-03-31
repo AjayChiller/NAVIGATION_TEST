@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+            >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/abc_vector_test"
+            android:title=" menu_home" />
+        <item
+            android:id="@+id/nav_Maps"
+            android:icon="@drawable/abc_vector_test"
+            android:title=" menu_Maps" />
+        <item
+            android:id="@+id/nav_Contacts"
+            android:icon="@drawable/abc_vector_test"
+            android:title=" menu_Contacts" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/abc_vector_test"
+            android:title=" menu_Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Login"
+                android:icon="@drawable/abc_vector_test"
+                android:title=" menu_Login" />
+            <item
+                android:id="@+id/nav_Contact"
+                android:icon="@drawable/abc_vector_test"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
